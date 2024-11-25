@@ -58,6 +58,9 @@ envx['QUESTABIN']                 = env.QUESTABIN
 envx['QUESTASIM']                 = env.QUESTASIM
 envx['VENDOR_LIB_PATH']           = env.VENDOR_LIB_PATH
 
+envx['ROOT_PATH']                 = dirs.ROOT
+envx['BUILD_PATH']                = dirs.BUILD
+
 envx.Tool('vivado')
 envx.Tool('questa')
 
